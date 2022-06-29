@@ -6,12 +6,25 @@
 //
 
 import SwiftUI
+import Foundation
 
 @main
 struct DIYExmtoHandbagsV3TESTApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(title: "Click to read json")
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+

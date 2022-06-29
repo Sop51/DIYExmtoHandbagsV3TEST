@@ -1,0 +1,68 @@
+{
+    "title": "DIY Exmto Handbags v3",
+    "version": "1.0.0",
+    "forms":[
+        {
+            "name":"customizations",
+            "fields":[
+                {
+                "id": "model",
+                "title": "Model",
+                "type": "array",
+                "required" : true,
+                "description": "This is a drop down list with the models",
+                "items":{
+                    "type": "string",
+                    "enum":[]
+                }
+                },
+                {
+                    "id": "material_and_color_code",
+                    "title": "Material & Color Code",
+                    "type": "string",
+                    "description": "This is both the material and color code. Drop down menu for choice.",
+                    "required": true,
+                    "items":{
+                        "enum": []
+                    }
+                },
+                {
+                    "id": "embossing",
+                    "title": "Embossing",
+                    "description": "wording, color, and size entered here if desired",
+                    "type": "object",
+                    "required": false,
+                    "components":[
+                        {
+                            "id": "wording",
+                            "title": "Wording",
+                            "subtitle": "MAX 6 DIGITS (MINOUDERIE ONLY 4 DIGITS)",
+                            "minLength": 0,
+                            "maxLength": 6
+                        },
+                        {
+                            "id": "color",
+                            "title": "Color",
+                            "type":"string",
+                            "description": "This is the color of the embossing. Autofills with model."
+                        },
+                        {
+                            "id": "size",
+                            "title": "Size",
+                            "type": "string",
+                            "description": "This is the size in mm of the embossing. Autofill",
+                            "unitOfMeasurement": "mm"
+                        }]
+                },
+                {
+                    "id": "retail_price",
+                    "title": "Retail Price",
+                    "subtitle": "DO NOT PUT DOTS, COMAS AND CURRENCY SYMBOLS",
+                    "type":"number",
+                    "pattern": "\\d+",
+                    "description": "This is the price",
+                    "required": true
+                }
+            ]
+        }]
+    }

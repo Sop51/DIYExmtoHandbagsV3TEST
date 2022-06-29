@@ -14,6 +14,12 @@
 		3EEEF8CC286B45B200E393FC /* DIYExmtoHandbagsV3TESTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEF8CB286B45B200E393FC /* DIYExmtoHandbagsV3TESTTests.swift */; };
 		3EEEF8D6286B45B200E393FC /* DIYExmtoHandbagsV3TESTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEF8D5286B45B200E393FC /* DIYExmtoHandbagsV3TESTUITests.swift */; };
 		3EEEF8D8286B45B200E393FC /* DIYExmtoHandbagsV3TESTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEF8D7286B45B200E393FC /* DIYExmtoHandbagsV3TESTUITestsLaunchTests.swift */; };
+		3EEEF8F2286C49CA00E393FC /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEF8F1286C49CA00E393FC /* Fields.swift */; };
+		3EEEF8F4286C49E300E393FC /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEF8F3286C49E300E393FC /* Items.swift */; };
+		3EEEF8F6286C49FB00E393FC /* Embossing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEF8F5286C49FB00E393FC /* Embossing.swift */; };
+		3EEEF8F8286C4A1200E393FC /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEF8F7286C4A1200E393FC /* Forms.swift */; };
+		3EEEF8F9286C563500E393FC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EEEF8E8286B48A600E393FC /* data.json */; };
+		3EEEF8FB286C57B900E393FC /* Overall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEF8FA286C57B900E393FC /* Overall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		3EEEF8D1286B45B200E393FC /* DIYExmtoHandbagsV3TESTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIYExmtoHandbagsV3TESTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EEEF8D5286B45B200E393FC /* DIYExmtoHandbagsV3TESTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIYExmtoHandbagsV3TESTUITests.swift; sourceTree = "<group>"; };
 		3EEEF8D7286B45B200E393FC /* DIYExmtoHandbagsV3TESTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIYExmtoHandbagsV3TESTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EEEF8E8286B48A600E393FC /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		3EEEF8F1286C49CA00E393FC /* Fields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
+		3EEEF8F3286C49E300E393FC /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		3EEEF8F5286C49FB00E393FC /* Embossing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Embossing.swift; sourceTree = "<group>"; };
+		3EEEF8F7286C4A1200E393FC /* Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
+		3EEEF8FA286C57B900E393FC /* Overall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				3EEEF8BA286B45AD00E393FC /* DIYExmtoHandbagsV3TESTApp.swift */,
+				3EEEF8F7286C4A1200E393FC /* Forms.swift */,
+				3EEEF8F5286C49FB00E393FC /* Embossing.swift */,
+				3EEEF8F1286C49CA00E393FC /* Fields.swift */,
+				3EEEF8F3286C49E300E393FC /* Items.swift */,
 				3EEEF8BC286B45AD00E393FC /* ContentView.swift */,
+				3EEEF8E8286B48A600E393FC /* data.json */,
+				3EEEF8FA286C57B900E393FC /* Overall.swift */,
 				3EEEF8BE286B45B200E393FC /* Assets.xcassets */,
 				3EEEF8C0286B45B200E393FC /* Preview Content */,
 			);
@@ -232,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EEEF8C2286B45B200E393FC /* Preview Assets.xcassets in Resources */,
+				3EEEF8F9286C563500E393FC /* data.json in Resources */,
 				3EEEF8BF286B45B200E393FC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EEEF8F6286C49FB00E393FC /* Embossing.swift in Sources */,
+				3EEEF8F4286C49E300E393FC /* Items.swift in Sources */,
+				3EEEF8F2286C49CA00E393FC /* Fields.swift in Sources */,
+				3EEEF8F8286C4A1200E393FC /* Forms.swift in Sources */,
 				3EEEF8BD286B45AD00E393FC /* ContentView.swift in Sources */,
 				3EEEF8BB286B45AD00E393FC /* DIYExmtoHandbagsV3TESTApp.swift in Sources */,
+				3EEEF8FB286C57B900E393FC /* Overall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
